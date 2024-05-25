@@ -1,0 +1,6 @@
+/FarFromHome/cache
+/FarFromHome/node_modules
+/FarFromHome/.env
+/FarFromHome/client/dist
+/FarFromHome/client/node_modules
+/FarFromHome/client/.env

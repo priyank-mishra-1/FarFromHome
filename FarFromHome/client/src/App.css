@@ -1,0 +1,131 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: large;
+}
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(to right, #ff9966, #ff5e62);
+  width: 100%; */
+  background-image: url("assets/Designer.png");
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+header {
+  background: whitesmoke;
+  padding: 20px;
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.logo {
+  height: 80px;
+}
+
+h1 {
+  color: black;
+  font-family: "Great Vibes", cursive;
+}
+
+.homepage-content {
+  background: white;
+  color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.homepage-content h3 {
+  color: #5e938b;
+  font-size: 30px;
+}
+
+.homepage-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.homepage-content ul li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.homepage-content ul li:hover {
+  background: #f9f9f9;
+}
+
+.homepage-content p {
+  line-height: 1.6;
+  font-size: 14px;
+}
+.actualBalance {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.actualBalance > * {
+  margin-bottom: 20px;
+}
+
+.actualBalance > *:last-child {
+  margin-bottom: 0;
+}
+.govAccount {
+  max-width: 1000px;
+  /* margin: auto; */
+  margin-bottom: 25px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.govAccount > * {
+  margin-bottom: 10px;
+}
+.govAccount > *:last-child {
+  margin-bottom: 0;
+}
+.govAccount button {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.govAccount button:hover {
+  background-color: #45a049;
+}
+
+.govAccount .component {
+  padding: 5px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.govAccount .component h3 {
+  margin-top: 0;
+}
+@media (max-width: 600px) {
+  .homepage-content {
+    padding: 10px;
+  }
+}
